@@ -5,41 +5,43 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Courses Offered</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-1.jpg"
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
-              label="Adventure"
+              src="images/2.jpg"
+              text="Post Graduate Diploma in Advanced Computing (PG DAC) grooms engineers and IT professionals for a career in Software Development."
+              label="PGDAC"
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
+              src="images/5.jpg"
+              text="Post Graduate Diploma in Big Data Analytics (PG DBDA) enables students to explore the fundamental concepts of big data analytics."
+              label="PGDBDA"
               path="/services"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-3.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
+              src="images/3.jpg"
+              text="This includes Core Java and Mobile and Wireless Technologies modules"
+              label="PGDMC"
               path="/services"
             />
             <CardItem
-              src="images/img-4.jpg"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
-              path="/products"
+              src="images/4.png"
+              text="The admission to all PG Courses by
+              C-DAC ACTS is through an All-India
+              C-DAC Common Admission Test"
+              label="Pre CAT"
+              path="/services"
             />
             <CardItem
-              src="images/img-8.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
-              path="/sign-up"
+              src="images/7.jpg"
+              text=" IoT aims to groom the students to enable them to work on current technology scenarios"
+              label="PG DIoT"
+              path="/services"
             />
           </ul>
         </div>

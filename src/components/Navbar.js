@@ -28,7 +28,7 @@ function Navbar(props) {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            VJ <i className="fab fa-typo3" />
+            VITA <i className="fab fa-typo3" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -45,16 +45,17 @@ function Navbar(props) {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                Courses
               </Link>
             </li>
+            
             <li className="nav-item">
               <Link
                 to="/products"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                About Us
               </Link>
             </li>
             <li className="nav-item">
@@ -67,6 +68,7 @@ function Navbar(props) {
               </Link>
             </li>
           </ul>
+          
           {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
         </div>
       </nav>
